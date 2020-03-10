@@ -93,3 +93,6 @@ class TicTacToe
     return nil
   end
 end
+
+a = TicTacToe.new
+a.turn
