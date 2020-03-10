@@ -70,10 +70,21 @@ class TicTacToe
   end
 
   def draw?
-    # won? == true, false
-    # otherwise,
-      #full? == true, true
-      #otherwise, false
+    if won?
+      return false
+    end
+    if full?
+      return true
+    end
+    return false
+  end
 
+  def over?
+    if won? or draw?
+      return true
+    end
+    if draw?
+      return true
+    end
   end
 end
