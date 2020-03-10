@@ -59,11 +59,10 @@ class TicTacToe
     WIN_COMBINATIONS.each do |winning_array|
       won = winning_array.all? {|index| @board[index] == @current_player}
       if won
-        break
+        return winning_array
       end
     end
-    # if won, return true
-    # otherwise, returne false
+    return won
   end
 
   def full?
