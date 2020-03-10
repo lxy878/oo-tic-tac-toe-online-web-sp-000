@@ -95,7 +95,7 @@ class TicTacToe
 
   def play
     while over?
-
+      turn
     end
   end
 end
