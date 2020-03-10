@@ -22,15 +22,15 @@ class TicTacToe
   end
 
   def position_taken?(index)
-    return (@borad[index]=="X" or @borad[index]=="O")
+    return (@board[index]=="X" or @board[index]=="O")
   end
 
   def valid_move?(index)
-    !position_taken?(index) and @borad[index]!=nil
+    !position_taken?(index) and @board[index]!=nil
   end
 
   def turn_count
-    valid = @borad.find_all {|position| position !=" "}
+    valid = @board.find_all {|position| position !=" "}
     valid.size
   end
 
@@ -65,7 +65,7 @@ class TicTacToe
   end
 
   def full?
-    !@borad.include?(" ")
+    !@board.include?(" ")
   end
 
   def draw?
