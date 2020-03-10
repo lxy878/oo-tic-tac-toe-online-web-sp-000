@@ -95,4 +95,4 @@ class TicTacToe
 end
 
 a = TicTacToe.new
-a.turn
+puts a.turn
