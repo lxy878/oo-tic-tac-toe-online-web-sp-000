@@ -92,6 +92,10 @@ class TicTacToe
     end
     return nil
   end
+
+  def play
+
+  end
 end
 
 # a = TicTacToe.new
