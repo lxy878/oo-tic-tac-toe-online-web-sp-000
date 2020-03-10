@@ -101,4 +101,3 @@ end
 a = TicTacToe.new
 board = ["X", "O", "X", "O", "X", "O", "O", "X", "X"]
 a.board = board
-puts a.valid_move?(i)
