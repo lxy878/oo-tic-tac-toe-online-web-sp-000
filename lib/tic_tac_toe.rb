@@ -95,6 +95,6 @@ class TicTacToe
 end
 
 a = TicTacToe.new
-i = "invalid".to_i
+i = a.input_to_index("invalid")
 puts i
 puts a.position_taken?(i)
