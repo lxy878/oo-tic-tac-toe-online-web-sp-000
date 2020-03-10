@@ -22,7 +22,7 @@ class TicTacToe
   end
 
   def position_taken?(index)
-    @borad[index]=="X" or @borad[index]=="O"
+    return (@borad[index]=="X" or @borad[index]=="O")
   end
 
   def valid_move?(index)
