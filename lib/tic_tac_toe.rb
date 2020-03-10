@@ -95,4 +95,4 @@ class TicTacToe
 end
 
 a = TicTacToe.new
-puts a.turn
+a.position_taken?("invalid")
