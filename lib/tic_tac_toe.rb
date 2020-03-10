@@ -54,6 +54,7 @@ class TicTacToe
 
   def won?
     #check board
+
     # if won, return true
     # otherwise, returne false
   end
@@ -66,7 +67,7 @@ class TicTacToe
     # won? == true, false
     # otherwise,
       #full? == true, true
-      #otherwise, false 
+      #otherwise, false
 
   end
 end
