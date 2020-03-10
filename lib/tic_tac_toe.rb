@@ -55,7 +55,10 @@ class TicTacToe
 
   def won?
     #check board
-
+    won = false
+    WIN_COMBINATIONS.each do |winning_array|
+      winning_array.all? {|index| @board[index] == @current_player}
+    end
     # if won, return true
     # otherwise, returne false
   end
