@@ -100,5 +100,4 @@ end
 
 a = TicTacToe.new
 i = a.input_to_index("invalid")
-puts a.board[i]
 puts a.valid_move?(i)
