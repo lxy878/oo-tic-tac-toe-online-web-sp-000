@@ -94,4 +94,4 @@ class TicTacToe
 end
 
 a = TicTacToe.new
-a.position_taken?(0)
+puts a.position_taken?(0)
