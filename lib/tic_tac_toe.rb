@@ -98,6 +98,7 @@ class TicTacToe
   end
 end
 
-# a = TicTacToe.new
-# i = a.input_to_index("invalid")
-# puts a.valid_move?(i)
+a = TicTacToe.new
+board = ["X", "O", "X", "O", "X", "O", "O", "X", "X"]
+a.board = board
+puts a.valid_move?(i)
