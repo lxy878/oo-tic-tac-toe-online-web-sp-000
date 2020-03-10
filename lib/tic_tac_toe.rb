@@ -86,5 +86,10 @@ class TicTacToe
     return false
   end
 
-  
+  def winner
+    if won?
+      @current_player
+    end
+    return nil
+  end
 end
