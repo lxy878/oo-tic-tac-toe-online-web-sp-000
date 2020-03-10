@@ -97,7 +97,9 @@ class TicTacToe
     while over?
       turn
     end
-    puts ""
+    if won?
+      puts "congratulates the winner #{winner}"
+    end
   end
 end
 
