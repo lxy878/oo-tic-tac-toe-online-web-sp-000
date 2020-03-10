@@ -97,8 +97,9 @@ class TicTacToe
     while over?
       turn
     end
-    if won?
-      puts "congratulates the winner #{winner}"
+    player = winner
+    if player != nil
+      puts "congratulates the winner #{player}"
     end
   end
 end
