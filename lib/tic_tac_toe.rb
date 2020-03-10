@@ -97,4 +97,4 @@ end
 a = TicTacToe.new
 i = a.input_to_index("invalid")
 puts i
-puts a.position_taken?(i)
+puts a.valid_move?(i)
