@@ -100,6 +100,8 @@ class TicTacToe
     player = winner
     if player != nil
       puts "congratulates the winner #{player}"
+    else
+      "Cat\'s Game!"
     end
   end
 end
