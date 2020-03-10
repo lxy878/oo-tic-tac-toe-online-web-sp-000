@@ -96,4 +96,5 @@ end
 
 a = TicTacToe.new
 i = "invalid".to_i
+puts i
 puts a.position_taken?(i)
