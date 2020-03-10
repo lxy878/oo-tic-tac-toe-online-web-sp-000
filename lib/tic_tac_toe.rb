@@ -97,7 +97,7 @@ class TicTacToe
     while over?
       turn
     end
-    puts
+    puts ""
   end
 end
 
