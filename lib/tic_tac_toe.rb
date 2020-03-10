@@ -58,6 +58,9 @@ class TicTacToe
     won = false
     WIN_COMBINATIONS.each do |winning_array|
       won = winning_array.all? {|index| @board[index] == @current_player}
+      if won
+        break
+      end
     end
     # if won, return true
     # otherwise, returne false
