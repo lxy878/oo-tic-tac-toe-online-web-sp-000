@@ -92,13 +92,9 @@ class TicTacToe
     end
     return nil
   end
-
-  def board
-    @board
-  end
 end
 
 a = TicTacToe.new
 board = ["X", "O", "X", "O", "X", "O", "O", "X", "X"]
 a.board = board
-puts a.board
+puts a.board.
