@@ -92,6 +92,3 @@ class TicTacToe
     return nil
   end
 end
-
-a = TicTacToe.new
-puts a.position_taken?(0)
