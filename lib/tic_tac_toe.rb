@@ -94,7 +94,9 @@ class TicTacToe
   end
 
   def play
+    while over?
 
+    end
   end
 end
 
